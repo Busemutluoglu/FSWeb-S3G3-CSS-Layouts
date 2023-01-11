@@ -1,1 +1,82 @@
-/* CSS stillerinizi buraya girin */
+body {
+  width: 905px;
+  margin: 0 auto;
+}
+.container {
+  background-color: rgb(245, 217, 236);
+  font-family: sans-serif;
+  margin: 0 0 20px;
+  border: 2px solid black;
+  border-color: bisque;
+}
+h1 {
+  margin: 30px 20px;
+  color: rgb(97, 94, 92);
+  font-family: "Courier New", Courier, monospace;
+}
+
+a {
+  padding: 10px;
+  border: 2px solid rgb(255, 228, 296);
+  background-color: rgb(255, 255, 255);
+  color: rgb(97, 94, 92);
+  display: inline-block;
+  text-decoration: wavy;
+  font-family: sans-serif;
+  margin-bottom: 10px;
+  justify-content: flex-end;
+  font-family: "Courier New", Courier, monospace;
+}
+.container a:first-child {
+  margin: 0 0 0 20px;
+}
+
+.gövde {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  display: inline-block;
+  border: 2px solid bisque;
+  width: 905px;
+  background-color: rgb(255, 208, 233);
+  font-family: "Courier New", Courier, monospace;
+}
+
+.resim {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.resim img {
+  width: 50%;
+  margin: 25px;
+}
+.isim {
+  margin-left: 30px;
+  margin-bottom: 60px;
+  color: rgb(97, 94, 92);
+}
+
+.isim a {
+  justify-content: space-evenly;
+  padding: 10px 45px;
+}
+.first {
+  display: flex;
+  justify-content: space-evenly;
+}
+.first img {
+  width: 23%;
+  padding: 10px;
+}
+.yazi {
+  display: flex;
+  padding-inline-end: 10px;
+  justify-content: space-around;
+}
+footer {
+  text-align: center;
+  margin-top: 50px;
+  background-color: rgb(245, 217, 236);
+  border: 2px solid bisque;
+  color: rgb(97, 94, 92);
+}
