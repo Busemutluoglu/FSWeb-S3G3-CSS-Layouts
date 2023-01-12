@@ -14,6 +14,15 @@ h1 {
   color: rgb(97, 94, 92);
   font-family: "Courier New", Courier, monospace;
 }
+nav a:hover {
+  color: rgb(19, 219, 215);
+  background-color: bisque;
+  font-weight: bolder;
+}
+
+.resim img:hover {
+  filter: grayscale(80%);
+}
 
 a {
   padding: 10px;
