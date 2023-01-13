@@ -56,7 +56,6 @@ a {
 #ana-giriş img {
   width: 70%;
   padding-top: 20px;
-  min-width: 360px;
 }
 #ana-giriş img:hover {
   filter: contrast(70%);
