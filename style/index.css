@@ -56,6 +56,7 @@ a {
 #ana-giriş img {
   width: 70%;
   padding-top: 20px;
+  min-width: 360px;
 }
 #ana-giriş img:hover {
   filter: contrast(70%);
@@ -92,4 +93,29 @@ footer {
 
 p {
   text-align: center;
+}
+@media screen and (max-width: 500px) {
+  header {
+    flex-direction: column;
+  }
+  nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  body {
+    min-width: 360px;
+  }
+  #ana-giriş {
+    display: flex;
+    flex-direction: column;
+  }
+  #projects div {
+    display: inline-block;
+    width: 40%;
+    text-align: center;
+  }
+  #projects div:hover {
+    background-color: antiquewhite;
+  }
 }
