@@ -1,6 +1,5 @@
 body {
-  width: 905px;
-  margin: 0 auto;
+  margin: 0 0;
 }
 .container {
   background-color: rgb(245, 217, 236);
@@ -18,10 +17,10 @@ nav a:hover {
   color: rgb(19, 219, 215);
   background-color: bisque;
   font-weight: bolder;
+  justify-content: flex-end;
 }
 
 .resim img:hover {
-  filter: grayscale(80%);
 }
 
 a {
@@ -33,7 +32,7 @@ a {
   text-decoration: wavy;
   font-family: sans-serif;
   margin-bottom: 10px;
-  justify-content: flex-end;
+  justify-content: flex-start;
   font-family: "Courier New", Courier, monospace;
 }
 .container a:first-child {
@@ -43,49 +42,54 @@ a {
 .gövde {
   color: rgb(0, 0, 0);
   text-decoration: none;
-  display: inline-block;
   border: 2px solid bisque;
-  width: 905px;
   background-color: rgb(255, 208, 233);
   font-family: "Courier New", Courier, monospace;
 }
 
-.resim {
+#ana-giriş {
   display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
-.resim img {
-  width: 50%;
-  margin: 25px;
-}
-.isim {
-  margin-left: 30px;
-  margin-bottom: 60px;
-  color: rgb(97, 94, 92);
+  justify-content: space-between;
+  padding: 0 30px 20px;
 }
 
-.isim a {
-  justify-content: space-evenly;
-  padding: 10px 45px;
+#ana-giriş img {
+  width: 70%;
+  padding-top: 20px;
 }
-.first {
-  display: flex;
-  justify-content: space-evenly;
+#ana-giriş img:hover {
+  filter: contrast(70%);
 }
-.first img {
-  width: 23%;
-  padding: 10px;
+#ana-giriş p {
+  text-align: start;
 }
-.yazi {
-  display: flex;
-  padding-inline-end: 10px;
-  justify-content: space-around;
-}
+
 footer {
   text-align: center;
-  margin-top: 50px;
+  margin-top: 20px;
   background-color: rgb(245, 217, 236);
   border: 2px solid bisque;
   color: rgb(97, 94, 92);
+}
+.spacer {
+  height: 30vh;
+  width: 100vw;
+}
+#projects {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+#projects div {
+  width: 20%;
+  padding: 10px;
+}
+
+#projects img {
+  width: 100%;
+}
+
+p {
+  text-align: center;
 }
