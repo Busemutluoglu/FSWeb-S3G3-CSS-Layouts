@@ -106,6 +106,15 @@ p {
   body {
     min-width: 360px;
   }
+  .container a {
+    margin-bottom: 0;
+  }
+  .container a:first-child {
+    margin: 0 0 0 0;
+  }
+  .container h1 {
+    text-align: center;
+  }
   #ana-giriş {
     display: flex;
     flex-direction: column;
